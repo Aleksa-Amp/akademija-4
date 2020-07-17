@@ -1,0 +1,28 @@
+{
+    "manufacturer":"Lenovo",
+    "model": "legion",
+    "price": 999,
+    
+    "stores": [
+        {
+            "id":1,
+            "title":"Tehnomax",
+            "city": "Podgorica"
+        },
+        {
+            "id": 2,
+            "title": "Tehnoplus",
+            "city": "Niksic"
+        },
+        {
+            "id": 3,
+            "title": "Multikom",
+            "city": "Herceg Novi"
+        },
+        {
+            "id": 4,
+            "title": "Player",
+            "city": "Beograd"
+        }
+    ]
+}

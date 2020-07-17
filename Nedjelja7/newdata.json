@@ -1,0 +1,93 @@
+{
+    "head": {
+        "title": "Amplitudo Akademija",
+        "desc": "Dobrodosli na akademiju."
+    },
+    "landing": {
+        "title":"Dobrodosli na akademiju",
+        "text":"Na danasnjem casu cemo uciti dinamicko renderovanje u PHP-u",
+        "img":"img/landing.jpg"
+    },
+    "courses": [
+        {
+            "title": "Web",
+            "img": "img/web.jpg",
+            "mentor": "Ben Klock",
+            "generations": 4,
+            "total_students": 177,
+            "students_data": "courses.web.json",
+            "open_for_submissions": true
+        },
+        {
+            "title": "Android",
+            "img": "img/android.jpg",
+            "mentor": "James Bond",
+            "generations": 3,
+            "total_students": 45,
+            "students_data": "courses.android.json",
+            "open_for_submissions": false
+        },
+        {
+            "title": "iOS",
+            "img": "img/ios.jpg",
+            "mentor": "Anthony Hopkins",
+            "generations": 3,
+            "total_students": 51,
+            "students_data": "courses.ios.json",
+            "open_for_submissions": false
+        },
+        {
+            "title": "Game Development",
+            "img": "img/game.jpg",
+            "mentor": "Al Pacino",
+            "generations": 2,
+            "total_students": 62,
+            "students_data": "courses.game.json",
+            "open_for_submissions": true
+        },
+        {
+            "title": "Game Design",
+            "img": "img/game-design.jpg",
+            "mentor": "Al Pacino",
+            "generations": 2,
+            "total_students": 62,
+            "students_data": "courses.game.json",
+            "open_for_submissions": true,
+            "important": 1253781625
+        }
+    ],
+    "aboutus": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "contact_form":[
+        {
+            "type":"text",
+            "name": "first_name",
+            "placeholder": "Unesite vase ime"
+        },
+        {
+            "type":"text",
+            "name": "last_name",
+            "placeholder": "Unesite vase prezime"
+        },
+        {
+            "type":"number",
+            "name": "years",
+            "placeholder": "Upisite broj godina"
+        },
+        {
+            "type":"select",
+            "name": "university",
+            "placeholder": "Fakultet",
+            "options": [
+                {"value":1, "title": "PMF"},
+                {"value":2, "title": "Mediteran FIT"},
+                {"value":3, "title": "ETF - racunari"}
+            ]
+        },
+        {
+           "type":"submit",
+            "name": "submit",
+            "form_action":"sumbit.php",
+            "value": "Pošalji" 
+        }
+    ]
+}
